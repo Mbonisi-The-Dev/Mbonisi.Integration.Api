@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Mabs Takalo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Mabs Takalo\\.nuget\\packages"
+    ]
+  }
+}
