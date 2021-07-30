@@ -17,9 +17,6 @@ using RestSharp;
 
 namespace Mbonisi.Integration.Api.Controllers
 {
-    //[Route("api/[controller]")]
-    //[Route("[controller]")]
-    //[ApiController]
     public class ChuckController : ControllerBase
     {
         //private readonly string BaseUrlOne = "https://api.chucknorris.io/jokes/categories";
@@ -46,39 +43,6 @@ namespace Mbonisi.Integration.Api.Controllers
             Joke joke = await _chuckService.GetJokeByCategory(name);
             return joke;
         }
-
-        //Search functionality
-        //[HttpGet]
-        //[Route("Search/name:string")]
-        //public async Task<IActionResult> Search(string category)
-        //{
-        //    using (var client = new HttpClient())
-        //    {
-        //        client.BaseAddress = new Uri(BaseUrlOne);
-        //        client.DefaultRequestHeaders.Accept.Clear();
-        //        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-        //        var response = await client.GetAsync($"?search={category}");
-
-        //        if (response.IsSuccessStatusCode)
-        //        {
-        //            dynamic jokesCat = response.Content.ReadAsStringAsync();
-        //            jokesCat.Wait();
-        //            string jokesString = jokesCat.Result;
-        //            dynamic jokesArray = JsonConvert.DeserializeObject<dynamic>(jokesString);
-        //            Console.WriteLine(jokesArray);
-
-        //            return Ok("Ïtem found");
-        //        }
-        //        else
-        //        {
-        //            ModelState.AddModelError(string.Empty, "Server error try after some time.");
-        //        }
-        //    }
-
-        //    return Ok();
-        //}
-
 
 
     }
