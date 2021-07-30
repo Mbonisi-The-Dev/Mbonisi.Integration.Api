@@ -2,7 +2,6 @@ C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Common\bin\Debug\n
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Common\bin\Debug\net5.0\Lib.Common.dll
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Common\bin\Debug\net5.0\ref\Lib.Common.dll
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Common\bin\Debug\net5.0\Lib.Common.pdb
-C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Common\obj\Debug\net5.0\Lib.Common.csproj.AssemblyReference.cache
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Common\obj\Debug\net5.0\Lib.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Common\obj\Debug\net5.0\Lib.Common.AssemblyInfoInputs.cache
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Common\obj\Debug\net5.0\Lib.Common.AssemblyInfo.cs

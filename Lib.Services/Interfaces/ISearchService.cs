@@ -10,6 +10,6 @@ namespace Lib.Services.Interfaces
 {
     public interface ISearchService
     {
-        public Task<List<Search>> GetSearch(string name);
+        public Task<Search> GetSearch(string name);
     }
 }

@@ -1,4 +1,6 @@
-﻿using Lib.Services.Interfaces;
+﻿
+
+using Lib.Services.Interfaces;
 using Lib.Common.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -32,7 +34,7 @@ namespace Mbonisi.Integration.Api.Controllers
 
 
         [HttpGet]
-        [Route("People")]
+        //[Route("People")]
         public async Task<ActionResult<List<People>>> People()
         {
             List<People> people = await _peopleService.GetPeople();
@@ -40,13 +42,13 @@ namespace Mbonisi.Integration.Api.Controllers
         }
 
 
-        [HttpGet]
-        [Route("Search/")]
-        public async Task<ActionResult<List<People>>> SearchPeople(string name)
-        {
-            List<People> person = await _peopleService.SearchPeople(name);
-            return person;
-        }
+        //[HttpGet]
+        //[Route("Search/")]
+        //public async Task<ActionResult<List<People>>> SearchPeople(string name)
+        //{
+        //    List<People> person = await _peopleService.SearchPeople(name);
+        //    return person;
+        //}
 
 
 

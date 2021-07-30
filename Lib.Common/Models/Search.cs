@@ -8,5 +8,7 @@ namespace Lib.Common.Models
 {
     public class Search
     {
+        public List<People> People { get; set; }
+        public List<Joke> Jokes { get; set; }
     }
 }

@@ -19,9 +19,9 @@ namespace Mbonisi.Integration.Api.Controllers
 
         [HttpGet]
         [Route("Search")]
-        public async Task<ActionResult<List<Search>>> Search(string name)
+        public async Task<ActionResult<Search>> Search(string name)
         {
-            List<Search> search = await _searchService.GetSearch(name);
+            Search search = await _searchService.GetSearch(name);
             return search;
         }
     }

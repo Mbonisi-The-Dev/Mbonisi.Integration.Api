@@ -32,11 +32,19 @@ namespace Mbonisi.Integration.Api.Controllers
         }
 
         [HttpGet]
-        [Route("Categories")]
+        [Route("Chuck")]
         public async Task<ActionResult<List<Chuck>>> Chuck()
         {
             List<Chuck> chuck = await _chuckService.GetCategories();
             return chuck;
+        }
+
+        [HttpGet]
+        //[Route("GetJokeByCategories")]
+        public async Task<ActionResult<Joke>> Search(string name)
+        {
+            Joke joke = await _chuckService.GetJokeByCategory(name);
+            return joke;
         }
 
         //Search functionality

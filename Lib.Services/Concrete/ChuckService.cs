@@ -15,7 +15,7 @@ namespace Lib.Services.Concrete
 {
     public class ChuckService: IChuckService
     {
-        private readonly string BaseUrl = "https://api.chucknorris.io/jokes/categories";
+        private readonly string BaseUrl = "https://api.chucknorris.io";
         public ChuckService()
         {
 
@@ -29,7 +29,7 @@ namespace Lib.Services.Concrete
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                var response = await client.GetAsync($"");
+                var response = await client.GetAsync($"jokes/categories");
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -63,6 +63,72 @@ namespace Lib.Services.Concrete
                     //mbChuck = jokesArray.Split(",").ToList();
                     //Console.WriteLine(mbChuck);
 
+                }
+                else
+                {
+                    throw new Exception("Server error try after some time ");
+                }
+            }
+            return mbChuck;
+        }
+
+        public async Task<Common.Models.Joke> GetJokeByCategory(string category)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(BaseUrl);
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var response = await client.GetAsync($"jokes/random?category={category}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string jokesCat = await response.Content.ReadAsStringAsync();
+                    var joke = JsonConvert.DeserializeObject<Lib.Services.Models.Joke>(jokesCat);
+
+                    return new Common.Models.Joke
+                    {
+                        Categories = joke.categories,
+                        Id = joke.id,
+                        Url = joke.url,
+                        Value = joke.value
+                    };
+
+                }
+                else
+                {
+                    throw new Exception("Server error try after some time ");
+                }
+            }
+        }
+
+        public async Task<List<Common.Models.Joke>> SearchJoke(string name)
+        {
+            List<Common.Models.Joke> mbChuck = new List<Common.Models.Joke>();
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(BaseUrl);
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var response = await client.GetAsync($"jokes/search?query={name}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string jokesCat = await response.Content.ReadAsStringAsync();
+                    var chuckRoot = JsonConvert.DeserializeObject<ChuckRoot>(jokesCat);
+
+                    foreach (var joke in chuckRoot.result)
+                    {
+                        mbChuck.Add(new Common.Models.Joke
+                        {
+                            Categories = joke.categories,
+                            Id = joke.id,
+                            Url = joke.url,
+                            Value = joke.value
+                        });
+                    }
                 }
                 else
                 {
