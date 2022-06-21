@@ -35,3 +35,40 @@ C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Ap
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\ref\Mbonisi.Integration.Api.dll
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.pdb
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.genruntimeconfig.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\appsettings.json
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Mbonisi.Integration.Api.StaticWebAssets.xml
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Mbonisi.Integration.Api.exe
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Mbonisi.Integration.Api.deps.json
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Mbonisi.Integration.Api.runtimeconfig.json
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Mbonisi.Integration.Api.runtimeconfig.dev.json
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Mbonisi.Integration.Api.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Mbonisi.Integration.Api.pdb
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\RestSharp.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Lib.Common.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Lib.Services.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Lib.Common.pdb
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\bin\Debug\net5.0\Lib.Services.pdb
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.AssemblyInfo.cs
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\scopedcss\bundle\Mbonisi.Integration.Api.styles.css
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\staticwebassets\Mbonisi.Integration.Api.StaticWebAssets.Manifest.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.RazorTargetAssemblyInfo.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.csproj.CopyComplete
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\refint\Mbonisi.Integration.Api.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.pdb
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\Mbonisi.Integration.Api.genruntimeconfig.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Mbonisi.Integration.Api\obj\Debug\net5.0\ref\Mbonisi.Integration.Api.dll

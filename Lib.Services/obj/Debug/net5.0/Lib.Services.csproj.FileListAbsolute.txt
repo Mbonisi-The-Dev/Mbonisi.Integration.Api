@@ -13,3 +13,18 @@ C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.dll
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\ref\Lib.Services.dll
 C:\Users\Mabs Takalo\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.pdb
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\bin\Debug\net5.0\Lib.Services.deps.json
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\bin\Debug\net5.0\Lib.Services.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\bin\Debug\net5.0\Lib.Services.pdb
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\bin\Debug\net5.0\Lib.Common.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\bin\Debug\net5.0\Lib.Common.pdb
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.AssemblyInfo.cs
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.csproj.CopyComplete
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\refint\Lib.Services.dll
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\Lib.Services.pdb
+C:\Users\User\source\repos\Mbonisi.Integration.Api\Lib.Services\obj\Debug\net5.0\ref\Lib.Services.dll
